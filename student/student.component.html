@@ -1,0 +1,9 @@
+<section>
+    <h1 [innerHtml]="student.name" [style.color]='"red"'></h1>
+    <h1 [innerHtml]="student.cgpa" [style.color]='"green"'></h1>
+    <section *ngFor="let stud of students">
+        <h1 [innerHtml]="stud.name" [style.color]='"red"'></h1>
+        <h1 [innerHtml]="stud.cgpa" [style.color]='"green"'></h1>
+    </section>
+    <!-- <img [src]="student.picture" [style.width.px]='"imgmaxwidth"' [style.height.px]='"imgmaxheight"'> -->
+</section>
